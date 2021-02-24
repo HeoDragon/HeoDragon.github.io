@@ -8,3 +8,7 @@ h1 {
 li.anime {
     color: rgb(199, 89, 38);
 }
+[href="https://www.facebook.com/"]{
+  color: red;
+  text-decoration: none;
+}
