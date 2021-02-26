@@ -1,0 +1,22 @@
+table{
+    width: 50% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+  border: 3px solid darkviolet;
+  border-collapse: collapse;
+}
+caption{
+    text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: lightskyblue;
+}
+tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+tr:first-child{
+    background-color: gold;
+    text-transform: uppercase;
+}
