@@ -128,3 +128,11 @@ img {
 ul{
      list-style-type: none;
 }
+.footer {
+  background-color: #808080;
+  padding: 20px;
+}
+
+.copy-right {
+  margin: 0;
+  text-align: center;
