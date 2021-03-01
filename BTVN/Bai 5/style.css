@@ -31,7 +31,7 @@ img {
 }
 
 .nav {
-    background-color:lightcoral;
+    background-color:palevioletred;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,7 +63,9 @@ img {
     display: inline-block;
     width: 65%;
     vertical-align: top;
-    padding-right: 10px;
+    padding: auto;
+    
+    
 }
 
 .right {
@@ -81,6 +83,7 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1.2;
+    
 }
 
 .post-link {
@@ -136,3 +139,41 @@ ul{
 .copy-right {
   margin: 0;
   text-align: center;
+}
+.ket-bai{
+text-transform: uppercase;
+}
+.post .main-post{
+    line-height: 2px;
+    
+}
+.post-main1{
+    border: 4px ridge whitesmoke;
+    padding: 20px;
+    text-align: justify;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+.post-main1 p{
+   line-height: 16px;
+    text-indent: 50px;
+}
+.post-main2{
+    border: 4px ridge whitesmoke;
+    padding: 20px;
+    text-align: justify;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+.post-main2 p{
+    line-height: 16px;
+    text-indent: 50px;
+}
+.post li{
+    border: 4px ridge whitesmoke;
+    padding: 10px;
+    text-align: justify;
+    background-color :lightgreen;
+    margin-bottom: 20px;
+     
+}
