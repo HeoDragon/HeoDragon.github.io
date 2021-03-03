@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linen;
+  height: 3000px;
+}
+.top-post{
+    background: linen;;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header,nav {
+  margin: 5px 10%;
+}
+
+nav {
+  background: lightskyblue;
+  border-radius: 10px;
+}
+nav ul {
+  display: flex;
+}
+a {
+  transition: all 1s;
+}
+nav > ul li {
+  list-style: none;
+  border-right: 1px ridge #ccc;
+  border-left: 1px solid #333;
+}
+nav > ul li a {
+  display: block;
+  padding: 0 50px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+nav ul li:first-child {
+  border-left: none;
+}
+nav > ul li:first-child a {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+nav ul li:hover > a {
+  background: darkturquoise;
+  opacity: 0.7;
+  color: darkslateblue;
+}
+nav li ul {
+  display: none;
+  min-width: 350px;
+  position: absolute;
+}
+nav li > ul li {
+  width: 100;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: coral;
+  text-align: left;
+}
+nav li > ul li:first-child a {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+nav li > ul li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+nav li > ul li:last-child a {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+nav > ul li > ul li > ul {
+  margin-left: 352px;
+  margin-top: -50px;
+}
+.post-main1 > ul {
+    width: 1350px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: tomato    ;
+}
+.post-main1 > ul > li {
+    width: 310px;
+    display: inline-block;
+    border: 1px solid black;   
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;    
+}
+.post-main1 > ul > li > h3{
+    border-top: 2px solid black;
+    padding-top: ;
+   
+}
+.post-main2 > ul {
+    width: 1350px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: tomato    ;
+}
+.post-main2 > ul > li {
+    width: 310px;
+    display: inline-block;
+    border: 1px solid black;   
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;    
+}
+.post-main2 > ul > li > h3{
+    border-top: 2px solid black;
+    padding-top: ;
+}
+
+h1{
+    background-color: yellow;
+    border: 1xp solid yellow;
+    width:370px;
+    height: 30px;
+    padding: 5px;
+}
+.material-icons{
+    position: fixed;
+    right: 20px ;
+    bottom: 20px;
+    color: black;
+    transition: ease-in-out linear;
+}
+
+.footer {
+  background-color: #808080;
+  padding: 20px;
+}
+.copy-right {
+  margin: 0;
+  text-align: center;
+}
