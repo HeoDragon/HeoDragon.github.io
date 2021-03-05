@@ -140,7 +140,7 @@ h1{
     right: 20px ;
     bottom: 20px;
     color: black;
-    transition: ease-in-out linear;
+    cursor: pointer;
 }
 
 .footer {
