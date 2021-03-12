@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Xin chao</p>
+    <script src="./main.js"></script>
+    <script>
+        // alert('Hello world')
+        console.log('Hello world')
+        // Khái báo Biến
+        let name
+        name='Nguyễn Văn A';
+        console.log(name)
+
+        name='Nguyễn Thị B';
+        console.log(name)
+
+        name='43'
+        console.log(name)
+
+        let email = 'abc@gmail.com';
+        console.log(email)
+
+        // khai báo biến sử dụng const
+        const number = 20;
+        console.log(number)
+
+        function abc(){
+            // function scope 
+            age = 24;
+            console.log(age)
+        }
+        abc()
+        console.log(age)
+
+        {
+            // block scope
+            let num =10;
+            console.log(num)
+            
+        }
+       
+     let firstName ='Nguyễn';
+     let lastName =' Thu Hằng';
+     let fullName = firstName + '' + lastName
+     console.log(fullName)
+
+     let text2=`Xin chào, tôi tên là ${fullName}.
+Năm nay tôi ${2021 - 1990} tuổi`
+     console.log(text2)
+      
+    //  Number
+    let num1 = 20
+    let num2 = 7
+
+    console.log(num1 + num2)
+    console.log(num1 - num2)
+    console.log(num1 * num2)
+    console.log(num1 / num2)
+    console.log(num1 % num2)
+
+    // Đối tượng  math
+    console.log(Math.PI) //Số pi
+    console.log(Math.sqrt(num1))//căn bậc 2
+    console.log(Math.pow(num1, num2))//20^7
+    console.log(num1**num2)//20^7
+
+    console.log(Math.max(1,2,3,4,5))//số lớn nhât
+    console.log(Math.min(1,2,3,4,5))// số bé nhất
+
+    console.log(Math.floor(2.9))//làm tròn xuống
+    console.log(Math.ceil(2.9))//làm tròn lên
+
+    //Function
+    //Định nghĩa
+    //Function
+    function sayHello() {
+        console.log('Xin chào')
+    }
+
+    //Thực thi Function
+    sayHello()
+
+    //function có tham số
+    function sayHello1(name, birth){
+        console.log(`Xin chào ${name}. Năm nay ${2021 - birth} tuổi`)
+    }
+    sayHello1('Nguyễn Văn A' ,1990)
+    sayHello1('Nguyễn Văn B' ,1999)
+
+    //Function trả về giá trị
+    //Ví dụ : tính tổng 2 số
+    function sum(a=10,b=20){
+        let result = a + b
+        return a + b
+    }
+
+    // Thực thi
+    let data = sum(3,4)//==7
+    console.log(data)
+    console.log(sum(3,4))
+    console.log(sum())//a=10, b=20
+    console.log(sum(5))//
+    // Bài tập thực hành
+    let text = 'xin chào các bạn'
+    console.log(text)
+    
+    function sayHello1(name){
+        console.log(`Xin chào ${name}`)
+    }
+    sayHello1('Nguyễn Văn A')
+
+    function sayHello2(name){
+        console.log(`Xin chào"${name}"`)
+    }
+    sayHello2('Nguyễn Văn B')
+
+    let data1 = sum(6,7)
+    console.log(data1)
+    let num20 = 20
+    let num3 = 2
+    console.log(Math.pow(num20, num3))   
+
+    
+    </script>
+</body>
+</html>
